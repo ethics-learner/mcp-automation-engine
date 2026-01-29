@@ -1,0 +1,32 @@
+{
+  "nmap": {
+    "command": "nmap -sV {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "whois": {
+    "command": "whois {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "dig": {
+    "command": "dig {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "nikto": {
+    "command": "nikto -h {target}",
+    "risk": "medium",
+    "requires_confirmation": true
+  },
+  "ssh_logs": {
+    "command": "journalctl -u ssh --no-pager | tail -n 50",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "tor_logs": {
+    "command": "journalctl -u tor --no-pager | tail -n 50",
+    "risk": "low",
+    "requires_confirmation": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "allow_high_risk": false,
+  "require_confirmation": true,
+  "allowed_origins": ["local"]
+}
+

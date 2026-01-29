@@ -1,0 +1,32 @@
+{
+  "nmap": {
+    "binary": "nmap",
+    "command": "nmap -sV {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "whois": {
+    "binary": "whois",
+    "command": "whois {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "dig": {
+    "binary": "dig",
+    "command": "dig {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  },
+  "nikto": {
+    "binary": "nikto",
+    "command": "nikto -h {target}",
+    "risk": "medium",
+    "requires_confirmation": true
+  },
+  "traceroute": {
+    "binary": "traceroute",
+    "command": "traceroute {target}",
+    "risk": "low",
+    "requires_confirmation": false
+  }
+}
