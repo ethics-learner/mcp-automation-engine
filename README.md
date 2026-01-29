@@ -1,5 +1,15 @@
 # MCP Tool Automation Engine
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-Kali_Linux-blue)
+![Security](https://img.shields.io/badge/Security-Ethical%20Automation-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+![GitHub release](https://img.shields.io/github/v/release/ethics-learner/mcp-tool-automation)
+![GitHub stars](https://img.shields.io/github/stars/ethics-learner/mcp-tool-automation)
+![GitHub issues](https://img.shields.io/github/issues/ethics-learner/mcp-tool-automation)
+
+
 A standalone **MCP-style automation engine** that executes real system tools
 with **policy enforcement, authentication, and confirmation gates**.
 
