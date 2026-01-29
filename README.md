@@ -97,3 +97,9 @@ X-API-Key: change-this-strong-key
 
 Configured in:
 config/.env
+
+
+🙌 Author
+
+Ethics Learner(Lalit Pandit)
+Cybersecurity | Automation | Defensive Research
